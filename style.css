@@ -1,0 +1,218 @@
+ 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: book antiqua;
+}
+header{
+    padding: 30px;
+    text-align: center;
+    background-color:#ECB6C6;
+    color:white;
+    font-size: 3em;
+    
+}
+body{
+    background-color: #F5DCE2;
+}
+nav{
+    background-color: white;
+    margin:10px 0px;
+    text-align: center;
+   
+}
+.quiensoy{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;;
+}
+.quien{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 15px;;
+    width:40%;
+    height:61vh;
+    border-color: purple;
+    background-color: #EFD4DD;
+    gap:20px;
+    align-items: center;
+}
+
+.quien h1{
+    text-align: center;
+    font-family: "times new roman";
+}
+
+.cuadro2{
+    width:5%;
+    height:30vh;
+    background-color: #EFD4DD;
+    padding:5px;
+    align-items: baseline;
+
+}
+
+.cuadro1{
+    width:5%;
+    height:40vh;
+    background-color: #EFD4DD;
+    padding:5px;
+    align-items: baseline;
+
+
+}
+
+
+.cuadro{
+    width:5%;
+    height:50vh;
+    background-color: #EFD4DD;
+    padding:5px;
+    align-items: baseline;
+}
+
+.habilidad{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    background-color: #EFD4DD ;
+    text-align: center;
+    padding: 35px;
+    font-family:"times new roman" ;
+    font-weight: bold;
+    gap:15px;
+    flex-flow: row wrap;
+}
+.hlinea{
+    width:40%;
+    height: 1vh;
+    background-color: white;
+    align-items:flex-start;
+    gap:15px;
+    
+
+}
+
+.contenedorh{
+    justify-content: space-between;
+    align-items:baseline;
+    padding: 10px;;
+    display: flex;
+    width: 90%;
+    height:75vh;
+    background-color: white;
+    gap:15px,
+}
+
+.cuadrohabilidades{
+
+    padding: 10px;
+    width: 32%;
+    height: 70vh;
+    background-color: #F5DCE2;
+    font-size: 20px ;
+    text-align: center;
+
+
+}
+.imagenh{
+    width: 100%;
+    height:2px;
+}
+.habilidades{
+    font-size: 30px;
+}
+.contenedors{
+    display: flex;
+    justify-content: center;
+}
+body .servicios{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 30px;
+    justify-content:center;
+    padding:15px;
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color:#222;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: #BCB8B5;
+    color:white;
+}
+.hero{
+    background-color: white;
+    padding: 10px;
+    margin:10px 0px;
+    width:100%;
+}
+.hero img{
+    width: 100%;
+    height: 400px;
+}
+.col{
+    width:calc(25% - 25px);
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    margin:10px;
+}
+.col img{
+    width:100%;
+    height:50vh
+}
+.col p{
+    text-align: justify;
+
+}
+.col a{
+    text-align: center;
+}
+section{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin:10px 0px;
+    gap:10px;
+    justify-content: baseline;
+    align-items: baseline;
+    
+    
+}
+
+body section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: baseline;
+}
+section img{
+    width: 10%;
+    display: flex;
+    align-self: center;
+    
+}
+section div{
+   display: flex;
+   width: 75%;
+}
+footer{
+    margin:10px 0px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+}
